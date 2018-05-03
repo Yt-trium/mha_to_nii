@@ -2,7 +2,7 @@ import skimage.io as io
 import os
 
 # Change with your root path
-root = '/home/yttm/Cours/TER/ITKTubeTK - Bullitt - Healthy MR Database/Designed Database of MR Brain Images of Healthy Volunteers/'
+root = '/'
 
 # Browse all files from all directories, subdirectories...
 for path, subdirs, files in os.walk(root):
